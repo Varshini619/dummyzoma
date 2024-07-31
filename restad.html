@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Card Format</title>
+<style>
+ .con{
+    width:100%;
+    height:100%;
+    display:flex;
+   flex-wrap: wrap;
+    flex-direction: row; 
+ }
+ .con2{
+    width:100%;
+    height:100vh;
+    display:flex;
+   flex-wrap: wrap;
+    flex-direction: row; 
+ }
+  .card {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+    display: flex;
+
+    
+    gap:5vh;
+
+  }
+  .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+
+  .card-content {
+    padding: 20px;
+    width: 23.5%;
+    font-size: 35px;
+  }
+  .card button{
+    width:30%;
+    height: 7vh;
+    font-size: 30px;
+
+  }
+  .con2 button{
+    width:30%;
+    height: 7vh;
+    font-size: 30px;
+  }
+
+</style>
+</head>
+<body>
+<div class="con">
+<div class="card">
+    <div class="card-content">
+  <img src="https://b.zmtcdn.com/data/pictures/4/3401744/a5fe55d075d83d4c4d9915f2776d940e_featured_v2.jpg?output-format=webp" alt="Placeholder Image">
+ 
+    <h3>Dasaprakash</h3>
+    <p>South India, North Indian,Tajganj,Agra<br>Open Now - 10am to 11pm</p>
+    <button onclick="alert('Thank You order placed successfully')">Order Now</button>
+  </div>
+
+  <div class="card-content">
+  <img src="https://b.zmtcdn.com/data/pictures/8/19314048/54c28ba88311237f0d7ab5b08fb854c6_featured_v2.jpg?output-format=webp" alt="Placeholder Image">
+   
+    <h3>NU-CLER</h3>
+    <p>North India, Oriental,Civil Lines, Agra<br>  Open Now - 12pm to 3am
+    </p>
+    <button onclick="alert('Thank You order placed successfully')">Order Now</button>
+  </div>
+  <div class="card-content">
+    <img src="https://b.zmtcdn.com/data/pictures/9/19359199/9e8ffca566cfa94eb4dd1a009c931743_featured_v2.jpg?output-format=webp" alt="Placeholder Image">
+   
+      <h3>Down Town Cafe</h3>
+      <p>North Indian, Mughlai, Rakabganji, Agra <br>
+        Open Now - 11am to 1am
+    </p>
+      <button onclick="alert('Thank You order placed successfully')">Order Now</button>
+    </div>
+
+  <div class="card-content">
+  <img src="data:image/jpeg;base64,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"/>
+    <h3>Pizza Hut</h3>
+    <p>pizza,Fast Food,Dessert,Agra cantt,Agra </br>
+    Open Now - 11am to 10pm</p>
+    <button onclick="alert('Thank You order placed successfully')">Order Now</button>
+  </div>
+  
+</div>
+  
+  <div class="con2">
+
+    <div class="card-content">
+        <img src="https://b.zmtcdn.com/data/pictures/1/20549041/9a7854ee51d6deb39b171ece1fe639db_featured_v2.jpg" alt="Placeholder Image">
+       
+          <h3>Food Adda</h3>
+          <p>Burger, Pizza, Sandwich,Khandari,Agra <br>
+            Open Now - 9am to 11pm
+        </p>
+          <button onclick="alert('Thank You order placed successfully')">Order Now</button>
+        </div>
+ <div class="card-content">
+            <img src="https://b.zmtcdn.com/data/pictures/0/19938140/164b5b7bde51660e5df126f4b56168d7_featured_v2.jpg" alt="Placeholder Image">
+           
+              <h3>Bikaner Express</h3>
+              <p>North Indian,South Indian, Kala Nagar,Agra <br>
+                Open Now - 11am to 1am
+            </p>
+              <button onclick="alert('Thank You order placed successfully')">Order Now</button>
+</div>
+<div class="card-content">
+    <img src="https://b.zmtcdn.com/data/pictures/7/3400177/9975efec546381cd2c2100d961971779_featured_v2.jpg"/>
+      <h3>Deviram sweets & Restaurants</h3>
+      <p>Mithai,North indian, south indian,Rakabganj,Agra<br>
+        Open Now - 10am to 10pm
+    </p>
+      <button onclick="alert('Thank You order placed successfully')">Order Now</button>
+</div>
+<div class="card-content">
+    <img src="https://b.zmtcdn.com/data/pictures/3/20606873/63778a2c688f6b1fef5269b08ba1701a_featured_v2.jpg" alt="Placeholder Image">
+   
+      <h3>The Ivory Kitchen</h3>
+      <p>North Indian,Chinese, Rakabganji, Agra <br>
+        Open Now - 10am to 11am
+    </p>
+      <button onclick="alert('Thank You order placed successfully')">Order Now</button>
+</div>
+</div>
+</div>
+
+<script>
+ 
+</script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Login Your Zomato Account</h1>
+    <div>
+        <p style="color:red"></p>
+        <input type="text" placeholder="Enter Name"/>
+        <input type="text" placeholder="Enter Email"/>
+        <input type="password" placeholder="Enter Password"/>
+        <button onclick="Loginn()">Login</button>
+    </div>
+    <script>
+        let ifr=document.getElementsByTagName("input")
+        let nam=localStorage.getItem("Name")
+        let em=localStorage.getItem("email")
+        let pwd=localStorage.getItem("pwd")
+        if(em!=null)
+        {
+            ifr[0].value=em
+        }
+        if(pwd!=null)
+        {
+            ifr[1].value=pwd
+        }
+        let login=()=>{
+            if(em==ifr[0].value && pwd==ifr[1].value)
+            {
+                window.location="zsignup.html"
+            }
+            else{
+                document.getElementsByTagName("p")[0].innerHTML="check your details"
+            }
+        }
+    </script>
+</body>
+</html>

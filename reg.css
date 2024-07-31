@@ -1,0 +1,303 @@
+
+
+.con img{
+    width:100%;
+    height:60vh;
+    position: relative;
+}
+.wel{
+    width:60%;
+    height: 6vh;
+    position: absolute;
+    top:100px;
+    left:100px;
+    color:white;
+    font-size: 9vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.B{
+    width:20%;
+    height:40vh;
+    flex:display;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top:35px;
+    right:300px;
+    color:rgb(255, 251, 251);
+    font-size:35px;
+    overflow-x: hidden;
+    }
+.C{
+        width:20%;
+        height:40vh;
+        flex:display;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         position: absolute;
+        top:35px;
+        right: 50px;
+        color:rgb(253, 250, 250);
+        font-size:35px;
+        overflow-x: hidden;
+}
+.card{
+    width:30%;
+    height: 40vh;
+    position: absolute;
+    top:300px;
+    left:350px;
+    color:white;
+    font-size: 30px;
+    background-color: transparent;
+    border:blue;
+}
+.but{
+    display: flex;
+    
+    font-size:10px;
+justify-content: space-around;
+    width: 90%;
+    height: 20vh;
+  align-items: center;
+    color:rgb(13, 13, 13);
+    justify-content: space-evenly; 
+    grid-template-columns: 1fr 1fr 1fr;
+    position: absolute;
+    top:270px;
+    color:rgb(255, 255, 255);
+    gap:40px;
+  
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    left:200px;
+    
+}
+
+.but button1{
+    font-size:10px;
+    color:black;
+    text-align: center;
+    width:80%;
+    height: 8vh;
+    font-size: 30px;
+    background-color: rgb(122, 202, 122);
+    justify-content: center;
+    text-align: center;
+}
+
+.but button2{
+    color:rgb(11, 11, 11);
+    
+    text-align: center;
+    width:80%;
+    height: 8vh;
+    font-size: 30px;
+    background-color: rgb(216, 129, 126);
+    text-align: center;
+    justify-content: center;
+
+}
+.scon{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+.scon img{
+    width: 100%;
+    height: 100vh;
+}
+*{
+    outline:none;
+    margin:0px;
+    padding:opx;
+}
+.qus{
+    width: 80%;
+    height: 20vh;
+
+}
+.qus button3{
+    width:50%;
+    height:6vh;
+    left:1000px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top:1500px;
+    color:rgb(15, 15, 15);
+    font-size:55px;
+    overflow-x: hidden;
+    position: absolute;
+
+}
+.regd{
+    width:90%;
+    left:150px;
+    height: 60vh;
+    top:2300px;
+    position: absolute;
+}
+
+
+
+    
+.down{
+    width:100%;
+    top:210px;
+    height: 80vh;
+    position: absolute;
+    
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    
+}
+
+.dzomo{
+    width:60% ;
+    height:40vh;
+    font-size:67px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    display: flex;
+    padding-left:300px;
+    font-weight: bold;
+}
+.dz{
+    width:60%;
+    height:9vh;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:80px;
+    left:50px;
+    
+}
+.dbutton{
+    width:50%;
+    height:5vh;
+
+    left:2000px;
+    display: flex;
+    justify-content: space-around;
+}
+.last{
+    width:100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    top:220px;
+    position: absolute;
+    font-size: 25px;
+    line-height: 3.9vh;
+    font-family:Arial, Helvetica, sans-serif;
+    word-spacing: 3px;
+    color: rgb(88, 83, 83);
+}
+.dbutton button{
+    width:250px;
+    height:7vh;
+  
+    display: flex;
+    padding:7px;
+    word-spacing: 7px;
+    }
+.dbutton img
+{
+    width:16%;
+    height: 3vh;
+    padding:2px;
+
+    }
+.dbutton fa-solid{
+        border: 4px solid rgb(245, 244, 244);
+        align-items: center;
+        
+        
+}
+.globe button{
+        width:200px;
+        height:5vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 9px;
+        color:black;
+        right:100px;
+        border-color: rgb(226, 224, 224);
+        background-color: rgb(243, 243, 243);
+}
+        
+.line{
+        width:87%;
+        height:6vh;
+        position: absolute;
+        top:820px;
+        color:black;
+    }
+    .india button{
+    width:230px;
+    height:5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 9px;
+    border-color: rgb(226, 224, 224);
+    right:50px;
+    background-color: rgb(245, 245, 245);
+    color:black;
+    
+    }
+    .ltext{
+        width:90%;
+        height:25px;
+        
+        position: absolute;
+        top:850px;
+        color:rgb(150, 149, 149);
+        left:180px;
+        font-size: 35px;
+        word-spacing: 4px;
+        letter-spacing: 1px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
